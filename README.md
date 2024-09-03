@@ -2,4 +2,6 @@ Shika Moriyama Angeles Castillo
 
 22 años
 
-![Yo](img/Gamingnt.jpg)
+![Yo](docs/img/Gamingnt.jpg)
+
+[Pages](https://shikatastrophe.github.io/MirchaQuintoPract3/)
