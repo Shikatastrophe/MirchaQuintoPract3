@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot Dreams</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
@@ -17,16 +18,16 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="#ini">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sinopsis</a>
+                    <a class="nav-link" href="#sino">Sinopsis</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Personajes</a>
+                    <a class="nav-link" href="#pers">Personajes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contact">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -35,7 +36,7 @@
           </span>
         </div>
     </nav>
-    <div class="container-fluid" id="Inicio">
+    <div class="container-fluid" id="ini">
         <br>
         <h3 class="ms-5">Un poco sobre Robot Dreams</h3>
         <br>
@@ -53,7 +54,133 @@
                 <img style="height: 500px;" src="img/RobotDreams.jpg" alt="Poster" class="img-fluid">
               </div>
             </div>
+            <br>
+              <div class="col">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/d2Mq6wxwCQA?si=OjGrZ90vKtTxh9kX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
         </div>
+    </div>
+    <div class="container-fluid" id="sino">
+      <hr>
+      <h3 class="ms-5">Sinopsis</h3>
+      <br>
+      <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <p>
+                  Robot Dreams trata sobre Dog, un perro que vive en Nueva York. Dog se siente solo, y ordena un robot para que le haga compañía. Dog y Robot pasan tiempo juntos, disfrutando de su mutua compañía, hasta que un día Robot no puede pararse más. 
+              </p>
+              <p>
+                  La pelicula se centra en Dog y Robot, intentando aprender a vivir la vida sin el otro. Esta pelicula es una metafora sobre el termino de una relacion, y como conllevar estos sentimientos.
+              </p>
+            </div>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/rd.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/rd2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/rd3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/rd4.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="pers">
+      <br>
+      <h3 class="ms-5">Los Personajes</h3>
+      <br>
+      <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Dog
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>
+                        Dog es el primer personaje principal, el cual funge como el que busca la relacion, y cuando esta no puede continuar, intenta buscar formas de olvidar y seguir adelante casi inmediatamente.
+                      </p>
+
+                      <img style="height: 500px;" src="img/DOG.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Robot
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>
+                        Robot es el segundo personaje principal, el cual funge como la persona que entra a la relacion y, cuando no puede seguir, pasa mucha parte del tiempo originalmente pensando y soñando fantasias de reencontrarse y volver a estar juntos.
+                      </p>
+                      <img style="height: 500px;" src="img/ROBOT.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Rascal
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>
+                        Rascal es un personaje secondario. El es el mapache que ayuda a Robot a encontrar una vida despues de Dog, ayudandolo a seguir adelante, aun despues de su perdida.
+                      </p>
+                      <img style="height: 500px;" src="img/RascalMovie_Bust.jpg" alt="">
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+      </div>
+    </div>
+    <div class="container-fluid" id="contact">
+      <br>
+      <h3 class="ms-5">Redes Sociales</h3>
+      <br>
+      <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <a href="https://en.wikipedia.org/wiki/Robot_Dreams_(film)" class="px-5" data-bs-toggle="tooltip" data-bs-title="Pagina Wikipedia"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-wikipedia" viewBox="0 0 16 16">
+                <path d="M8.835 3.003c.828-.006 2.688 0 2.688 0l.033.03v.288q0 .12-.133.12c-.433.02-.522.063-.68.29-.087.126-.258.393-.435.694l-1.52 2.843-.043.089 1.858 3.801.113.031 2.926-6.946q.152-.42-.044-.595c-.132-.114-.224-.18-.563-.195l-.275-.014a.16.16 0 0 1-.096-.035.1.1 0 0 1-.046-.084v-.289l.042-.03h3.306l.034.03v.29q0 .117-.133.117-.65.03-.962.281a1.64 1.64 0 0 0-.488.704s-2.691 6.16-3.612 8.208c-.353.672-.7.61-1.004-.019A224 224 0 0 1 8.044 8.81c-.623 1.285-1.475 3.026-1.898 3.81-.411.715-.75.622-1.02.019-.45-1.065-1.131-2.519-1.817-3.982-.735-1.569-1.475-3.149-1.943-4.272-.167-.4-.293-.657-.412-.759q-.18-.15-.746-.18Q0 3.421 0 3.341v-.303l.034-.03c.615-.003 3.594 0 3.594 0l.034.03v.288q0 .119-.15.118l-.375.016q-.483.02-.483.288-.002.125.109.4c.72 1.753 3.207 6.998 3.207 6.998l.091.023 1.603-3.197-.32-.71L6.24 5.095s-.213-.433-.286-.577l-.098-.196c-.387-.77-.411-.82-.865-.88-.137-.017-.208-.035-.208-.102v-.304l.041-.03h2.853l.075.024v.303q0 .104-.15.104l-.206.03c-.523.04-.438.254-.09.946l1.057 2.163 1.17-2.332c.195-.427.155-.534.074-.633-.046-.055-.202-.144-.54-.158l-.133-.015a.16.16 0 0 1-.096-.034.1.1 0 0 1-.045-.085v-.288l.041-.03Z"/>
+              </svg></a>
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <a href="https://robot-dreams.fandom.com/wiki/Robot_Dreams_(2023)" class="px-5" data-bs-toggle="tooltip" data-bs-title="Pagina Wiki Fandom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+              </svg></a>
+            </div>
+            
+          </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
