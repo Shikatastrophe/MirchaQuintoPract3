@@ -304,7 +304,7 @@ d.addEventListener("click", function(e) {
 });
 
 
-
+/*
 $listaCarrito.addEventListener("click", function(e) {
     if(e.target.tagName === "LI"){
         const $item = e.target;
@@ -318,6 +318,7 @@ $listaCarrito.addEventListener("click", function(e) {
         
     }
 })
+*/
 
 $btnCompra.addEventListener("click", function(e) {
     if($listaCarrito.children.length > 0){
