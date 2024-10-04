@@ -11,3 +11,5 @@ Shika Moriyama Angeles Castillo
 [Practica 5](https://shikatastrophe.github.io/MirchaQuintoPract3/practica5/index)
 
 [Practica 6](https://shikatastrophe.github.io/MirchaQuintoPract3/practica6/index)
+
+[Practica 7](https://shikatastrophe.github.io/MirchaQuintoPract3/practica7/index)
